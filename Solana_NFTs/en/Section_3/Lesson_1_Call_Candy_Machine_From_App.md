@@ -39,7 +39,7 @@ Let's go one by one (note: **no** quotation symbols needed here).
 
 `REACT_APP_SOLANA_NETWORK` - Set this to `devnet` as this is just the network in which we are accessing our candy machine from
 
-`REACT_APP_SOLANA_RPC_HOST` - This is pretty much the same as above. Since we are accessing out Candy Machine on devnet we need to point the RPC to that devnet link which is `https://explorer-api.devnet.solana.com`
+`REACT_APP_SOLANA_RPC_HOST` - This is pretty much the same as above. Since we are accessing out Candy Machine on devnet we need to point the RPC to that devnet link which is `https://api.devnet.solana.com`
 
 Cool, this all looks setup. Our web app needs all these variables so it knows stuff like: what candy machine to talk to, what network to mint on, etc.
 
